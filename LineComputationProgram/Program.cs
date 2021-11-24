@@ -4,7 +4,7 @@ namespace LineComparision
 {
     class Program
     {
-        static void Main(string[] args)
+        public static double CompareLine()
         {
             //varibles
             double x1, x2, y1, y2;
@@ -70,6 +70,12 @@ namespace LineComparision
             {
                 Console.WriteLine("Line 2 is greater than line 1 ");
             }
+            return 0;
+        }
+        static void Main(string[] args)
+        {
+            CompareLine();
+
         }
     }
 }
